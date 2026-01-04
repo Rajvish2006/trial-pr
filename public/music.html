@@ -5,12 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Music Finder</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nstyle.css">
 </head>
 <body>
 
 <header>
-    <h1>YouTube Music Finder</h1>
-</header>
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">The Whispering Willow</a>
+            </div>
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="nature-gallery.html">Nature Gallery</a></li>
+                    <li><a href="book.html">Books</a></li>
+                    <li><a href="mood.html">Mood</a></li>
+                    <li><a href="music.html" class="active">Music</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
 
 <div class="container">
     <div class="player-controls">
@@ -71,3 +91,4 @@
 <script src="https://www.youtube.com/iframe_api"></script>
 </body>
 </html>
+
